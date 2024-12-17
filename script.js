@@ -11,7 +11,7 @@ function validateLogin(){
 
     usuarios.forEach(userAtual => {
         if(user === userAtual.user && password === userAtual.password){
-            alert('Login feito com sucesso.')
+            window.location.href = "home.html"
         }else{
             alert('tudo errado vei')
         }
